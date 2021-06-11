@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content  = "width = devicewidth, initial-scale = 1, shrink-to-fit = no">
+    <link rel = "stylesheet" href = "{{ url_for('static', filename = 'bootstrap.min.css') }}">
+    <link ref = "stylesheet" href = "{{ url_for('static', filename = 'style.css') }}">
+    <title>Hello, pybo_htmlbase!</title>
+</head>
+<body>
+
+    {% block content %}
+    {% endblock %}
+    
+</body>
+</html>
