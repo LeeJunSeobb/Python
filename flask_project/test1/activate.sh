@@ -1,3 +1,3 @@
 #!/bin/bash
 
-source /c/dev/Git/Python/venvs/flask_test/Scripts/activate
+source /d/dev/Git/Python/venvs/flask_test/Scripts/activate
